@@ -1,0 +1,51 @@
+$font-color: #3c4a53;
+$menu-bg-color: #3c4a53;
+$menu-font-color: #FFFEF5;
+$backgroud-color: #FFFEF5;
+
+
+body{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    background-color: $backgroud-color;
+}
+h1, h2, h3, h4, h5, h6, p, span{
+    color: $font-color;
+    letter-spacing: 1px;
+    font-family: 'Fontsfree net clashdisplay variable',Arial,sans-serif;
+}
+ul{
+    padding: 0;
+    position: relative;
+}
+li{
+    list-style: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: $font-color;
+    font-size: 20px;
+}
+
+
+    @mixin lg() {
+        @media screen and (max-width: 1280px) {
+            @content;
+        }
+    }
+    @mixin tb() {
+        @media screen and (max-width: 1024px) {
+            @content;
+        }
+    }
+    @mixin md() {
+        @media screen and (max-width: 768px) {
+            @content;
+        }
+    }
+    
+    @mixin sm() {
+        @media screen and (max-width: 375px) {
+            @content;
+        }
+    }
