@@ -17,14 +17,7 @@
 
           <ul>
             <router-link class="menu_link" to="/"><li class="menu_list">Intro</li></router-link>
-            <router-link class="menu_link" to="/WebAPI"><li class="menu_list">WebAPI</li></router-link>
-            <router-link class="menu_link" to="/ShoppingCart"><li class="menu_list">ShoppingCart</li></router-link>
-            <router-link class="menu_link" to="/CardPractice"><li class="menu_list">Portfolio</li></router-link>
-            <router-view />
-            <router-link class="menu_link" to="/PopUp"><li class="menu_list">PopUp</li></router-link>
-            <router-view />
-            <router-link class="menu_link" to="/Typing"><li class="menu_list">Typing</li></router-link>
-            <router-view />
+            <router-link class="menu_link" to="/ShoppingCart"><li class="menu_list">Shopping cart</li></router-link>
           </ul>
         </div>
       </nav>

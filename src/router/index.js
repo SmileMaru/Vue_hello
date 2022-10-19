@@ -12,21 +12,11 @@ const routes = [
     name: 'ShoppingCart',
     component: () => import('@/views/ShoppingCart.vue')
   },
-  {
-    path: '/CardPractice',
-    name: 'CardPractice',
-    component: () => import('@/views/CardPractice.vue')
-  },
-  {
-    path: '/PopUp',
-    name: 'PopUp',
-    component: () => import('@/views/PopUp.vue')
-  },
-  {
-    path: '/Typing',
-    name: 'Typing',
-    component: () => import('@/views/Typing.vue')
-  },
+  // {
+  //   path: '/Typing',
+  //   name: 'Typing',
+  //   component: () => import('@/views/Typing.vue')
+  // },
 ]
 
 const router = createRouter({
